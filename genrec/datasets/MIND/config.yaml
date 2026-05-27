@@ -1,0 +1,2 @@
+metadata: none  # none / raw / sentence
+split: leave_one_out  # leave_one_out

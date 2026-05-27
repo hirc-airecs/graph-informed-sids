@@ -1,0 +1,29 @@
+# Overwritting configs
+train_batch_size: 256
+eval_batch_size: 256
+lr: 3e-3
+
+# Config for HSTU
+max_item_seq_len: 50
+n_embd: 64
+n_layer: 16
+n_head: 8
+n_inner: 256
+activation_function: gelu_new
+resid_pdrop: 0.5
+embd_pdrop: 0.5
+attn_pdrop: 0.0
+layer_norm_epsilon: 1e-12
+initializer_range: 0.02
+num_time_buckets: 128
+num_position_buckets: 128
+normalization: rel_bias
+
+loss_type: sampled_softmax
+num_negatives: 512
+l2_norm: True
+temperature: 0.05
+
+n_user_tokens: 0      # User tokens not supported by SASRecSID (consistent with original SASRec)
+aux_seq_columns: time  # Comma-separated values e.g. "time,rating"
+use_temporal_bias: True

@@ -1,0 +1,5 @@
+# TIGER-related
+rq_n_codebooks: 4
+rq_codebook_size: 256
+deduplicate_on_creation: False
+deduplicate_on_load: False
