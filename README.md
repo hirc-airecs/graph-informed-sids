@@ -49,3 +49,7 @@ bash scripts/run_recdmon.sh
 ```
 
 The `scripts/` directory contains all experiments needed to reproduce the results in the paper. Results are saved under `results/`, named by the alias specified in each script.
+
+## Acknowledgements
+
+We sincerely thank the authors of [LETTER](https://github.com/HonghuiBao2000/LETTER), [MemGen-GR](https://github.com/Jamesding000/MemGen-GR), and [phonism](https://github.com/phonism/genrec) repositories for their valuable contributions to the open-source community.
